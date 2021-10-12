@@ -10,7 +10,7 @@ let granTurismo = new Game (3,"GranTurism Sport","Sony","24/04/2018");
 
 let gameList = [juegoFifa22,fornite,granTurismo];
 
-
+populateGames();
 gameList.forEach(e =>{
     
     e.lanzamiento = "20/09/2021";
